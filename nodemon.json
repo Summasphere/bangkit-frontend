@@ -1,0 +1,8 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts,tsx,js,jsx",
+    "exec": "vite dev --config vite.config.dev.js",
+    "legacyWatch": true
+}

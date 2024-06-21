@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.background-layered {
+  background-image: url('/src/assets/mainpages.png'), linear-gradient(to bottom right, #0B001A, #334155);
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.background-layered2 {
+  background-image: url('/src/assets/mainpages2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
